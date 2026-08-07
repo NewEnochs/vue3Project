@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u9879\u76EE\\vueProject\\vue3ProjectCore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9C0E4385-895B-410A-81BC-0FF37B017B05}|ProjectCore.DAL\\ProjectCore.DAL.csproj|d:\\\u9879\u76EE\\vueproject\\vue3projectcore\\projectcore.dal\\model\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C0E4385-895B-410A-81BC-0FF37B017B05}|ProjectCore.DAL\\ProjectCore.DAL.csproj|solutionrelative:projectcore.dal\\model\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A240F54-602E-4126-A8E1-944F886A2C1F}|ProjectCore.Web\\ProjectCore.Web.csproj|d:\\\u9879\u76EE\\vueproject\\vue3projectcore\\projectcore.web\\controllers\\business\\gradecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A240F54-602E-4126-A8E1-944F886A2C1F}|ProjectCore.Web\\ProjectCore.Web.csproj|solutionrelative:projectcore.web\\controllers\\business\\gradecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFADE92F-2B94-41CC-B673-D7783F265CD4}|ProjectCore.Util\\ProjectCore.Util.csproj|d:\\\u9879\u76EE\\vueproject\\vue3projectcore\\projectcore.util\\filteraes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFADE92F-2B94-41CC-B673-D7783F265CD4}|ProjectCore.Util\\ProjectCore.Util.csproj|solutionrelative:projectcore.util\\filteraes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C0E4385-895B-410A-81BC-0FF37B017B05}|ProjectCore.DAL\\ProjectCore.DAL.csproj|d:\\\u9879\u76EE\\vueproject\\vue3projectcore\\projectcore.dal\\model\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C0E4385-895B-410A-81BC-0FF37B017B05}|ProjectCore.DAL\\ProjectCore.DAL.csproj|solutionrelative:projectcore.dal\\model\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A240F54-602E-4126-A8E1-944F886A2C1F}|ProjectCore.Web\\ProjectCore.Web.csproj|d:\\\u9879\u76EE\\vueproject\\vue3projectcore\\projectcore.web\\controllers\\system\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A240F54-602E-4126-A8E1-944F886A2C1F}|ProjectCore.Web\\ProjectCore.Web.csproj|solutionrelative:projectcore.web\\controllers\\system\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A240F54-602E-4126-A8E1-944F886A2C1F}|ProjectCore.Web\\ProjectCore.Web.csproj|d:\\\u9879\u76EE\\vueproject\\vue3projectcore\\projectcore.web\\controllers\\business\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A240F54-602E-4126-A8E1-944F886A2C1F}|ProjectCore.Web\\ProjectCore.Web.csproj|solutionrelative:projectcore.web\\controllers\\business\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A240F54-602E-4126-A8E1-944F886A2C1F}|ProjectCore.Web\\ProjectCore.Web.csproj|d:\\\u9879\u76EE\\vueproject\\vue3projectcore\\projectcore.web\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A240F54-602E-4126-A8E1-944F886A2C1F}|ProjectCore.Web\\ProjectCore.Web.csproj|solutionrelative:projectcore.web\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A240F54-602E-4126-A8E1-944F886A2C1F}|ProjectCore.Web\\ProjectCore.Web.csproj|d:\\\u9879\u76EE\\vueproject\\vue3projectcore\\projectcore.web\\middlewares\\requestfiltercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A240F54-602E-4126-A8E1-944F886A2C1F}|ProjectCore.Web\\ProjectCore.Web.csproj|solutionrelative:projectcore.web\\middlewares\\requestfiltercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A240F54-602E-4126-A8E1-944F886A2C1F}|ProjectCore.Web\\ProjectCore.Web.csproj|d:\\\u9879\u76EE\\vueproject\\vue3projectcore\\projectcore.web\\services\\authtokencache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A240F54-602E-4126-A8E1-944F886A2C1F}|ProjectCore.Web\\ProjectCore.Web.csproj|solutionrelative:projectcore.web\\services\\authtokencache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "D:\\\u9879\u76EE\\vueProject\\vue3ProjectCore\\ProjectCore.DAL\\Model\\Menu.cs",
+              "RelativeDocumentMoniker": "ProjectCore.DAL\\Model\\Menu.cs",
+              "ToolTip": "D:\\\u9879\u76EE\\vueProject\\vue3ProjectCore\\ProjectCore.DAL\\Model\\Menu.cs",
+              "RelativeToolTip": "ProjectCore.DAL\\Model\\Menu.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAADwv18AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-06T10:42:06.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FilterAES.cs",
+              "DocumentMoniker": "D:\\\u9879\u76EE\\vueProject\\vue3ProjectCore\\ProjectCore.Util\\FilterAES.cs",
+              "RelativeDocumentMoniker": "ProjectCore.Util\\FilterAES.cs",
+              "ToolTip": "D:\\\u9879\u76EE\\vueProject\\vue3ProjectCore\\ProjectCore.Util\\FilterAES.cs",
+              "RelativeToolTip": "ProjectCore.Util\\FilterAES.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-06T09:58:41.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\\u9879\u76EE\\vueProject\\vue3ProjectCore\\ProjectCore.DAL\\Model\\Student.cs",
+              "RelativeDocumentMoniker": "ProjectCore.DAL\\Model\\Student.cs",
+              "ToolTip": "D:\\\u9879\u76EE\\vueProject\\vue3ProjectCore\\ProjectCore.DAL\\Model\\Student.cs",
+              "RelativeToolTip": "ProjectCore.DAL\\Model\\Student.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAIBPwBkAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-31T07:10:32.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "D:\\\u9879\u76EE\\vueProject\\vue3ProjectCore\\ProjectCore.Web\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "ProjectCore.Web\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "D:\\\u9879\u76EE\\vueProject\\vue3ProjectCore\\ProjectCore.Web\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "ProjectCore.Web\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwYAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-31T06:49:50.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GradeController.cs",
+              "DocumentMoniker": "D:\\\u9879\u76EE\\vueProject\\vue3ProjectCore\\ProjectCore.Web\\Controllers\\Business\\GradeController.cs",
+              "RelativeDocumentMoniker": "ProjectCore.Web\\Controllers\\Business\\GradeController.cs",
+              "ToolTip": "D:\\\u9879\u76EE\\vueProject\\vue3ProjectCore\\ProjectCore.Web\\Controllers\\Business\\GradeController.cs",
+              "RelativeToolTip": "ProjectCore.Web\\Controllers\\Business\\GradeController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAwBYAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-31T06:49:42.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AuthTokenCache.cs",
+              "DocumentMoniker": "D:\\\u9879\u76EE\\vueProject\\vue3ProjectCore\\ProjectCore.Web\\Services\\AuthTokenCache.cs",
+              "RelativeDocumentMoniker": "ProjectCore.Web\\Services\\AuthTokenCache.cs",
+              "ToolTip": "D:\\\u9879\u76EE\\vueProject\\vue3ProjectCore\\ProjectCore.Web\\Services\\AuthTokenCache.cs",
+              "RelativeToolTip": "ProjectCore.Web\\Services\\AuthTokenCache.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-31T06:13:20.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\\u9879\u76EE\\vueProject\\vue3ProjectCore\\ProjectCore.Web\\Controllers\\System\\AuthService.cs",
+              "RelativeDocumentMoniker": "ProjectCore.Web\\Controllers\\System\\AuthService.cs",
+              "ToolTip": "D:\\\u9879\u76EE\\vueProject\\vue3ProjectCore\\ProjectCore.Web\\Controllers\\System\\AuthService.cs",
+              "RelativeToolTip": "ProjectCore.Web\\Controllers\\System\\AuthService.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAUwBkAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-31T06:07:30.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RequestFilterController.cs",
+              "DocumentMoniker": "D:\\\u9879\u76EE\\vueProject\\vue3ProjectCore\\ProjectCore.Web\\Middlewares\\RequestFilterController.cs",
+              "RelativeDocumentMoniker": "ProjectCore.Web\\Middlewares\\RequestFilterController.cs",
+              "ToolTip": "D:\\\u9879\u76EE\\vueProject\\vue3ProjectCore\\ProjectCore.Web\\Middlewares\\RequestFilterController.cs",
+              "RelativeToolTip": "ProjectCore.Web\\Middlewares\\RequestFilterController.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAEwDgAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-31T03:19:15.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "D:\\\u9879\u76EE\\vueProject\\vue3ProjectCore\\ProjectCore.Web\\Controllers\\Business\\StudentController.cs",
+              "RelativeDocumentMoniker": "ProjectCore.Web\\Controllers\\Business\\StudentController.cs",
+              "ToolTip": "D:\\\u9879\u76EE\\vueProject\\vue3ProjectCore\\ProjectCore.Web\\Controllers\\Business\\StudentController.cs",
+              "RelativeToolTip": "ProjectCore.Web\\Controllers\\Business\\StudentController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAvwBoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T12:00:38.645Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
