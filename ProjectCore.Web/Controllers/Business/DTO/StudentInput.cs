@@ -16,6 +16,13 @@ namespace ProjectCore.Web.Controllers.Business
         public string GUID { get; set; } = null!;
     }
 
+    public class UpadtePwdInput
+    {
+        public string PassWord { get; set; } = null!;
+
+        public string NewPassWord { get; set; } = null!;
+    }
+
     public class GradeInput : PageInputBase
     {
     }

@@ -23,7 +23,7 @@ namespace ProjectCore.Web.Controllers
         public async Task<dynamic> Login(LoginInput input)
         {
             var student = await _db.Queryable<Student>()
-                .FirstAsync(x => x.LoginName == input.LoginName);
+                .FirstAsync(x => x.LoginName == input.Account);
 
             if (student == null)
             {
@@ -49,7 +49,7 @@ namespace ProjectCore.Web.Controllers
             return true;
         }
 
-        [HttpGet("/getLoginUser")]
+        [HttpPost("/getLoginUser")]
         public dynamic GetLoginUser()
         {
             var userInfo = HttpContext.Items["LoginUser"] ?? string.Empty;
@@ -70,7 +70,7 @@ namespace ProjectCore.Web.Controllers
 
     public class LoginInput
     {
-        public string LoginName { get; set; } = string.Empty;
+        public string Account { get; set; } = string.Empty;
         public string PassWord { get; set; } = string.Empty;
     }
 }

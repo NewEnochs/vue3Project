@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using ProjectCore.DAL;
+using ProjectCore.Web.Services;
 using SqlSugar;
 
 namespace ProjectCore.Web.Controllers.Business
@@ -75,6 +76,31 @@ namespace ProjectCore.Web.Controllers.Business
         public async Task<bool> DeleteStudent(StudentIdInput input)
         {
             return await db.Updateable<Student>().SetColumns(r => r.Status == 0).Where(r => r.GUID == input.GUID).ExecuteCommandAsync() > 0;
+        }
+        #endregion
+
+        #region 修改学生密码
+        /// <summary>
+        /// 修改学生密码
+        /// </summary>
+        /// <param name="input">密码修改参数</param>
+        /// <returns>是否修改成功</returns>
+        [HttpPost("/student/updatePassWord")]
+        public async Task<bool> UpdatePassWord(UpadtePwdInput input)
+        {
+            var loginUser = HttpContext.Items["LoginUser"] as LoginUserInfo;
+            if (loginUser == null)
+            {
+                return false;
+            }
+
+            var student = await db.Queryable<Student>().FirstAsync(r => r.GUID == loginUser.StudentGUID && r.Status > 0);
+            if (student == null || student.Password != input.PassWord)
+            {
+                return false;
+            }
+
+            return await db.Updateable<Student>().SetColumns(r => r.Password == input.NewPassWord).Where(r => r.GUID == loginUser.StudentGUID).ExecuteCommandAsync() > 0;
         }
         #endregion
     }
