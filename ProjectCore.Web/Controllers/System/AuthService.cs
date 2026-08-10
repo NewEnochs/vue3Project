@@ -49,7 +49,7 @@ namespace ProjectCore.Web.Controllers
             return true;
         }
 
-        [HttpPost("/getLoginUser")]
+        [HttpGet("/getLoginUser")]
         public dynamic GetLoginUser()
         {
             var userInfo = HttpContext.Items["LoginUser"] ?? string.Empty;

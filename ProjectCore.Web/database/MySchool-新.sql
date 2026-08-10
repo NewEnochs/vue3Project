@@ -1,3 +1,31 @@
+USE master;
+GO
+
+-- 开启事务
+BEGIN TRY
+    BEGIN TRANSACTION;
+    
+    -- 删除已存在的数据库
+    IF EXISTS (SELECT 1 FROM sys.databases WHERE name = 'MySchool')
+    BEGIN
+        ALTER DATABASE MySchool SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
+        DROP DATABASE MySchool;
+        PRINT '数据库 MySchool 已成功删除';
+    END
+    
+    -- 创建新数据库
+    CREATE DATABASE MySchool;
+    PRINT '数据库 MySchool 已成功创建';
+    
+    COMMIT TRANSACTION;
+END TRY
+BEGIN CATCH
+    ROLLBACK TRANSACTION;
+    THROW;
+END CATCH;
+GO
+
+
 USE MySchool
 GO
 
