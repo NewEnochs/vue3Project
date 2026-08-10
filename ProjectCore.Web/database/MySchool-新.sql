@@ -1,28 +1,34 @@
 USE master;
 GO
 
--- 开启事务
+-- 删除已存在的数据库
 BEGIN TRY
-    BEGIN TRANSACTION;
-    
-    -- 删除已存在的数据库
     IF EXISTS (SELECT 1 FROM sys.databases WHERE name = 'MySchool')
     BEGIN
         ALTER DATABASE MySchool SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
         DROP DATABASE MySchool;
-        PRINT '数据库 MySchool 已成功删除';
+        PRINT '√ 数据库 MySchool 已成功删除';
     END
-    
-    -- 创建新数据库
-    CREATE DATABASE MySchool;
-    PRINT '数据库 MySchool 已成功创建';
-    
-    COMMIT TRANSACTION;
+    ELSE
+    BEGIN
+        PRINT '√ 数据库 MySchool 不存在，无需删除';
+    END
 END TRY
 BEGIN CATCH
-    ROLLBACK TRANSACTION;
+    PRINT '× 删除数据库失败: ' + ERROR_MESSAGE();
+    -- 注意：这里不要 THROW，因为程序可以继续执行创建操作
+END CATCH
+GO
+
+-- 创建新数据库
+BEGIN TRY
+    CREATE DATABASE MySchool;
+    PRINT '√ 数据库 MySchool 已成功创建';
+END TRY
+BEGIN CATCH
+    PRINT '× 创建数据库失败: ' + ERROR_MESSAGE();
     THROW;
-END CATCH;
+END CATCH
 GO
 
 
